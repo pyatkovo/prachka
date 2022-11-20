@@ -1,0 +1,137 @@
+.main-about {
+    padding: 100px 0px 50px 0px;
+}
+
+.about-info {
+
+}
+
+.about-info-title {
+    text-align: center;
+    padding: 0px 0px 55px 0px;
+    text-transform: uppercase;
+    color: #98ABCF;
+}
+
+.about-info-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #F6F9FF;
+}
+
+.about-info-block-1 {
+    color: #303949;
+    align-items: center;
+    max-width: 50%;
+    padding: 70px 50px;
+    height: 280px;
+}
+.about-info-block-1 p{
+    max-width: 80%;
+
+}
+
+.about-info-block-img {
+    width: 550px;
+    height: 300px;
+    background-image: url('img/about.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.advantages{
+    padding: 0px 0px 20px 0px;
+}
+.advantages_title{
+    text-align: center;
+    text-transform: uppercase;
+    color: #98ABCF;
+    margin: 0px 0px 30px 0px;
+}
+.advantages-items {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
+
+}
+.advantages-item {
+    margin: 10px 0px 0px 0px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+
+
+}
+.advantages-item-title {
+
+    margin: 30px 0px 0px 0px;
+}
+.advantages-title-title h3{
+
+}
+.advantages-item-info {
+    width: 250px;
+    height: 100px;
+
+
+}
+.advantages-item-block{
+    width: 80%;
+    margin: 10px 0px;
+    padding: 10px 3px 10px 3px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #F6F9FF;
+
+
+}
+@media (max-width: 640px) {
+    .advantages{
+
+    }
+    .about-info-block{
+        flex-direction: column-reverse;
+        border: 1px solid black;
+        border-radius: 75px 75px 75px 75px;
+
+    }
+    .about-info-block-img{
+        width: 670px;
+        height: 300px;
+        max-width: 100%;
+        border-radius: 75px 75px 0px 0px;
+    }
+    .about-info-block-1{
+        align-items: center;
+        max-width: 100%;
+        max-height: 230px;
+        padding: 20px 00px 0px 10px;
+    }
+
+    .advantages-items{
+
+    }
+    .advantages-item-block{
+        width: 310px;
+        height: 200px;
+        margin: 10px 0px;
+        padding: 0px 00px 20px 00px;
+        border: 1px solid black;
+        border-radius: 5%;
+    }
+    .advantages-item{
+        display: flex;
+        flex-direction: column;
+    }
+    .advantages-item-info{
+        margin: 5px 20px;
+    }
+}

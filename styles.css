@@ -942,6 +942,7 @@ body {
 }
 
 .call-input {
+    padding: 0px 10px;
     margin: 12px 0px 37px 0px;
     width: 330px;
     height: 50px;
@@ -1125,7 +1126,7 @@ footer {
     }
 
     .footer-nav-links li {
-        padding: 0px 20px 0px 0px;
+        padding: 0px 15px 0px 0px;
     }
 
     .footer-socials {
