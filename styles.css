@@ -284,17 +284,6 @@ body {
     align-items: center;
 }
 
-.content-info h1 {
-    width: 527px;
-    height: 105px;
-}
-
-.content-info p {
-    width: 450px;
-    height: 144px;
-    text-align: left;
-}
-
 .content-info {
     background: #98ABCF;
 
@@ -357,11 +346,16 @@ body {
 }
 
 @media (max-width: 1023px) {
+    .main {
+        height: 100%;
+        padding: 80px 0px ;
+    }
     .main-info {
         display: flex;
-        align-items: center;
+        justify-content: left;
+        width: 100%;
         flex-direction: column-reverse;
-        flex-wrap: wrap-reverse;
+
 
     }
 
@@ -375,11 +369,10 @@ body {
 
 
     .content-info {
-        margin: -30px 0px 0px 0px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        height: 300px;
+        max-width: 100%;
+        margin: 40px 0px 0px 0px;
+
     }
 
     .main-text {
@@ -391,40 +384,60 @@ body {
     }
 
     .main-photo {
+        height: 400px;
         max-width: 100%;
+        border-radius: 75px 75px 0px 0px;
     }
 }
 
 @media (max-width: 640px) {
     .main {
-        padding: 0px 0px 30px 0px;
+        height: 100%;
+        padding: 80px 0px ;
     }
 
     .main-info {
-
+        display: flex;
+        justify-content: left;
+        width: 100%;
+        flex-direction: column-reverse;
     }
-
     .content-info {
+        height: 300px;
+        max-width: 100%;
+        margin: 40px 0px 0px 0px;
 
     }
-
     .main-photo {
-        width: 500px;
-        height: 500px;
+
+        height: 300px;
+        max-width: 100%;
+        border-radius: 75px 75px 0px 0px;
     }
 
-    .button-main {
-        width: 280px;
-        height: 80px;
+
+
+
+    .main-text {
+
+        padding: 0px 0px;
     }
 
-    .content-info h2 {
-        font-family: Montserrat-Black;
-        font-weight: 10;
-        font-size: 10px;
-        line-height: 30px;
+    .main-action {
+
     }
 
+    .main-action button {
+        width: 100%;
+
+    }
+
+    .content-info h1 {
+        font-size: 26px;
+    }
+    .main-text p {
+        font-size: 16px;
+    }
 
 }
 
@@ -947,6 +960,7 @@ body {
     width: 330px;
     height: 50px;
     border: 1.25px solid #EFCEBF;
+    outline: none;
 }
 
 .call-button {
@@ -961,6 +975,15 @@ body {
     font-weight: 600;
     font-size: 12px;
     line-height: 25px;
+}
+
+.call-button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.call-button:hover {
+    background: #efc4ac;
 }
 
 .call-info {
@@ -979,6 +1002,7 @@ body {
         align-items: center;
         justify-content: space-between;
         margin: 70px 0px 0px 0px;
+        width: 100%;
     }
 
     .call-item {
@@ -991,18 +1015,20 @@ body {
 
     .call-input {
         margin: 12px 0px 37px 0px;
-        max-width: 460px;
+        max-width: 100%;
         height: 50px;
         border: 1.25px solid #EFCEBF;
     }
 
-    .call-button {
-        width: 460px;
+
+    .call-button button{
+        width: 100%;
         height: 50px;
     }
 
     .call-info {
-        width: 460px;
+        padding: 30px 0px;
+        width: 300px;
         height: 50px;
     }
 }
@@ -1018,7 +1044,7 @@ body {
 
     .call-button {
         max-width: 280px;
-        height: 40px;
+        height: 50px;
     }
 
     .call-info {
