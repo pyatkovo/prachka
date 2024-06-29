@@ -919,7 +919,7 @@ body {
 
 .slick-arrow.slick-prev {
     left: 0;
-    background: url("/img/left.svg") 0 0 no-repeat !important;
+    background: url("img/left.svg") 0 0 no-repeat !important;
 
 }
 
@@ -933,7 +933,7 @@ body {
 
 .slick-arrow.slick-next {
     right: 0;
-    background: url("/img/right.svg") 0 0 no-repeat;
+    background: url("img/right.svg") 0 0 no-repeat;
 }
 
 /*--------------Call Menu--------------------*/
