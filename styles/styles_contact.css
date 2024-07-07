@@ -81,7 +81,7 @@
 .contact-main-block-element-2 {
     width: 50%;
     height: 500px;
-    background-image: url('img/111.svg');
+    background-image: url('../img/111.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

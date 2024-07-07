@@ -10,7 +10,7 @@
 .main-price-promo-image {
     width: 575px;
     height: 450px;
-    background-image: url('img/price_promo.svg');
+    background-image: url('../img/price_promo.svg');
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;

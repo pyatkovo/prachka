@@ -7,31 +7,31 @@
 
 @font-face {
     font-family: Roboto-Bold;
-    src: url("fonts/Roboto-Bold.ttf");
+    src: url("../fonts/Roboto-Bold.ttf");
     font-weight: bold;
 }
 
 @font-face {
     font-family: Roboto-Regular;
-    src: url("fonts/Roboto-Regular.ttf");
+    src: url("../fonts/Roboto-Regular.ttf");
     font-weight: normal;
 }
 
 @font-face {
     font-family: Montserrat-Regular;
-    src: url("fonts/Montserrat-Bold.ttf");
+    src: url("../fonts/Montserrat-Bold.ttf");
     font-weight: bold;
 }
 
 @font-face {
     font-family: Montserrat-Black;
-    src: url("fonts/MontserratAlternates-Black.ttf");
+    src: url("../fonts/MontserratAlternates-Black.ttf");
     font-weight: normal;
 }
 
 @font-face {
     font-family: Montserrat-Alternates;
-    src: url("fonts/MontserratAlternates-Regular.ttf");
+    src: url("../fonts/MontserratAlternates-Regular.ttf");
 }
 
 h1 {
@@ -335,7 +335,7 @@ body {
     width: 500px;
     height: 500px;
     display: flex;
-    background-image: url('img/mother.png');
+    background-image: url('../img/mother.png');
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -920,7 +920,7 @@ body {
 
 .slick-arrow.slick-prev {
     left: 0;
-    background: url("img/left.svg") 0 0 no-repeat !important;
+    background: url("../img/left.svg") 0 0 no-repeat !important;
 
 }
 
@@ -934,7 +934,7 @@ body {
 
 .slick-arrow.slick-next {
     right: 0;
-    background: url("img/right.svg") 0 0 no-repeat;
+    background: url("../img/right.svg") 0 0 no-repeat;
 }
 
 /*--------------Call Menu--------------------*/
